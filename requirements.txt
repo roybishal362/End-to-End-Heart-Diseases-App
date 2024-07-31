@@ -1,8 +1,9 @@
-numpy 
-pandas
 streamlit
-matplotlib
-plotly.express
-pickle
 seaborn
+pandas
+matplotlib
 altair
+hiplot
+numpy
+scikit-learn
+plotly
