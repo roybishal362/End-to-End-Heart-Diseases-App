@@ -26,19 +26,19 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the Saved Models
-with open("End-to-end herat diseases prediction app/Models/rf_model.pkl", "rb") as file:
+with open("rf_model.pkl", "rb") as file:
     rf_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/gnb_model.pkl", "rb") as file:
+with open("gnb_model.pkl", "rb") as file:
     gnb_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/lr_model.pkl", "rb") as file:
+with open("lr_model.pkl", "rb") as file:
     lr_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/svm_model.pkl", "rb") as file:
+with open("svm_model.pkl", "rb") as file:
     svm_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/dt_model.pkl", "rb") as file:
+with open("dt_model.pkl", "rb") as file:
     dt_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/qda_model.pkl", "rb") as file:
+with open("qda_model.pkl", "rb") as file:
     qda_model = pkl.load(file)
-with open("End-to-end herat diseases prediction app/Models/knn_model.pkl", "rb") as file:
+with open("knn_model.pkl", "rb") as file:
     knn_model = pkl.load(file)
 
 
