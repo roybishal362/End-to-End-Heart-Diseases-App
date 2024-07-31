@@ -52,7 +52,7 @@ st.markdown(
 )
 
 # Dataset
-url ="https://raw.githubusercontent.com/SandhyaKilari/Heart-Disease-Assessment/main/heart.csv"
+url ="https://github.com/roybishal362/End-to-End-Heart-Diseases-App/blob/main/heart-disease.csv"
 df_heart = pd.read_csv(url)
 df_model = df_heart
 
