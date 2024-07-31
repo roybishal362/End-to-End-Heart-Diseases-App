@@ -472,7 +472,7 @@ with tab5:
     
     def predict(data):
         data_scaled = my_scaler.transform(data)
-        return svm_model.predict(data_scaled)
+        return knn_model.predict(data_scaled)
     
     st.markdown("Can we establish a dependable predictive tool for early detection?")
     st.write(" ")
@@ -481,7 +481,7 @@ with tab5:
     
     if st.button("Estimate"):
         result = predict(input_df)
-        accuracy = svm_model.score(X_test_scaled, y_test)
+        accuracy = knn_model.score(X_test_scaled, y_test)
                 
         if (result == 0):
             st.subheader('You are predicted to have NO Heart Risk')
